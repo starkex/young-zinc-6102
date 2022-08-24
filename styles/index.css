@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Human BBY Web,Roboto,Arial,sans-serif;
+}
+#container {
+    margin: auto;
+    /* font-size: 40px; */
+    min-height: 100vh;
+    /* background: #101f61; */
+    background: linear-gradient(45deg,#101f61,#2b4cb6 40%,#4171fc 59%,#7fd8ff 85%,#a6e4ff);
+    
+}
+#language{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+#language> div{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: end;
+}
+#language> div > a {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#language >div> a:hover{
+   text-decoration: underline;
+}
+#main{
+    width: 30%;
+    margin: auto;
+    margin-top: 3.5%;
+}
+#main>div>img{
+    width: 80px;
+    padding-bottom: 16px;
+}
+#main > div > h1{
+    /* font-stretch: 225%; */
+    font-size: 62px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+#flags{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+#flags >div{
+    width: 30%;
+}
+
+#flags >div>img{
+    width:100%;
+    height: 70%;
+}
+
+#flags > div>img:hover{
+    cursor: pointer;
+    border:4px solid yellow;
+    margin: -4px;
+}
+#flags> div > p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.hr-line {
+    width: 100%;
+    height: 1px;
+    margin: 24px 0;
+    background: #4976e6;
+}
+#main>div>h6{
+    margin-top: 16px;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #fff;
+}
+.details{
+    font-size: 16px;
+    margin-top: 8px;
+    color: #fff;
+    line-height: 20px;
+}
+#seedetails{
+    font-size: 15px;
+    margin-top: 8px;
+    font-weight: 700;
+    color: #fff;
+}
+#seedetails:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/*****Responsiveness*****/
+
+@media all and (min-width:320px) and (max-width:480px){
+    #main{
+        width: 95%;
+        margin-top: 3%;
+    }
+    #main > div > h1{
+        font-size: 32px;
+    }
+    #language> div{
+        width: 95%;
+    }
+    #language> div > a {
+        padding: 2px 10px 2px 10px;
+    }
+    .details{
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+@media all and (min-width:481px) and (max-width:1024px){
+    #main{
+        width: 70%;
+        margin-top: 7%;
+    }
+    .details{
+        font-size: 16px;
+        line-height: 27px;
+    }
+}

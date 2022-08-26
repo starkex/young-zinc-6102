@@ -654,8 +654,8 @@ body{
     display: flex;
     margin: auto;
     justify-content: space-between;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 4%;
+    margin-bottom: 1%;
 }
 .feedback > div{
     display: flex;
@@ -672,11 +672,39 @@ body{
     letter-spacing: 1px;
 }
 .feedback>div>a:hover,#feedback-link:hover{
+    color: #002a72;
     cursor: pointer;
     text-decoration: underline;
 }
 
+#footer-options{
+    display: flex;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+    margin-top:1% ;
+}
+#footer-options>a{
+    color: #0046be;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
 
+#footer-options>a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #002a72;
+}
+.copyrights{
+    width: 95%;
+    font-size: 13px;
+    color: #1d252c;
+    margin: auto;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
 
 
 

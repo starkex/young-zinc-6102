@@ -298,6 +298,23 @@ body{
     width: 90%;
     margin-top: 2%;
 }
+#trust-two{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    grid-template-columns: repeat(3,21%);
+    grid-template-rows: repeat(1,auto);
+    gap: 25px;
+    width: 90%;
+}
+#trust-two>div{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    padding: 1% 0 1% 0;
+}
 #trust>div{
     display: flex;
     background-color: #f0f2f4;
@@ -306,9 +323,25 @@ body{
     margin: auto;
     width: 100%;
     padding: 1% 0 1% 0;
-    /* border-radius: 3px; */
 }
+#trust-two>div>div>img{
+    display: flex;
+    width: 100%;
+    align-self: center;
+
+}
+#trust-two>div > div:nth-child(1){
+    width: 23%;
+}
+
 #trust>div>div+div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 15px;
+    line-height: 25px;
+}
+#trust-two>div>div+div{
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -318,6 +351,12 @@ body{
 #trust h3{
     font-size: 20px;
     font-weight: 600;
+}
+#trust-two h3{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #55555a;
 }
 #trust p{
     font-size: 15px;
@@ -332,6 +371,16 @@ body{
     cursor: pointer;
     text-decoration: underline;
 }
+#trust-two p{
+    text-decoration: none;
+    color: #55555a;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/* #trust-two>div{
+    width: 30%;
+} */
 .ecosystem{
     display: flex;
     width: 85%;
@@ -381,6 +430,253 @@ body{
 .bottom-nav>div>div{
     width: 100%;
 }
+
+#help-banner{
+    width: 90%;
+    margin: auto;
+}
+#help-banner>img{
+    margin: auto;
+    width: 100%;
+}
+
+.footer-section{
+    background-color: #f0f2f4;
+    padding: 1%;
+}
+#processes{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    gap: 40px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+#processes>div{
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    margin: auto;
+    text-align: center;
+}
+#processes>div>a>svg{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    fill: rgb(112, 117, 125);
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+#processes>div>a{
+    color:#0046be;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+#processes>div>a:hover{
+    text-decoration: underline;
+    color: #002a72;
+}
+
+#footer-line{
+    width: 95%;
+    margin: auto;
+    height: 1px;
+    background-color: #c4c4c4;
+}
+
+#footer-menu-area{
+    display: flex;
+    /* width: 95%; */
+    flex-direction: row;
+    margin: auto;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+.menu-part>div>p{
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 3%;
+}
+
+.menu-part>div>ul>li>a{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 32px;
+    color: #0046be;
+}
+.menu-part>div>ul>li>a:hover{
+    color: #002a72;
+    text-decoration: underline;
+}
+
+.menu-part>div>ul{
+    list-style: none;
+}
+.menu-form{
+    display: flex;
+    width: 95%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    gap: 20px;
+}
+/* .menu-form>div{
+    margin: auto;
+    width: 50%;
+} */
+.menu-part{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,auto);
+    width: 70%;
+    /* border: 1px solid red; */
+
+}
+.form-part{
+    width: 30%;
+    background-color: #ffffff;
+    /* border: 1px solid red; */
+    padding: 1% 1% 2.5% 1%;
+}
+.form-part>a{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    /* line-height: 32px; */
+    color: #0046be;
+}
+.form-part>a:hover{
+    color: #002a72;
+    text-decoration: underline;
+}
+#form-line{
+    width: 100%;
+    margin: auto;
+    height: 1px;
+    background-color: #c4c4c4;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#mail-id{
+    width: 66%;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    padding: 8px 2px 8px 12px;
+    outline: none;
+    /* margin-top: 2%; */
+}
+.fields>button{
+    width: 25%;
+    padding: 7px 12px 7px 12px;
+    background-color: #0046be;
+    color: #fff;
+    height: 4%;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    transition: 0.4s;
+    border: 1.5px solid #0046be;
+}
+.fields>button:hover{
+    transition: 0.4s;
+    background-color: #fff;
+    color: #0046be;
+    border: 1.5px solid #0046be;
+    cursor: pointer;
+
+}
+.fields{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    margin-bottom: 7%;
+}
+.form-part>h4{
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.best-app{
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.best-app>svg{
+    fill: #0046be;
+    width: 9%;
+    margin-right: 1%;
+}
+.best-app>div>p{
+    font-size: 21px;
+    font-weight: 600;
+    color: #040c13;
+}
+.best-app>div>a{
+    color: #0046be;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.best-app>div>a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.social-links>div{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.social-links>svg{
+    width: 6.5%;
+    fill: #0046be;
+}
+.social-links>svg{
+    cursor: pointer;
+}
+.feedback{
+    width: 95%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.feedback > div{
+    display: flex;
+    gap: 40px;
+}
+.feedback>p{
+    font-size: 13px;
+}
+.feedback>div>a,#feedback-link{
+    color: #0046be;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.feedback>div>a:hover,#feedback-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
 
 
 

@@ -298,6 +298,23 @@ body{
     width: 90%;
     margin-top: 2%;
 }
+#trust-two{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    grid-template-columns: repeat(3,21%);
+    grid-template-rows: repeat(1,auto);
+    gap: 25px;
+    width: 90%;
+}
+#trust-two>div{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    padding: 1% 0 1% 0;
+}
 #trust>div{
     display: flex;
     background-color: #f0f2f4;
@@ -306,9 +323,25 @@ body{
     margin: auto;
     width: 100%;
     padding: 1% 0 1% 0;
-    /* border-radius: 3px; */
 }
+#trust-two>div>div>img{
+    display: flex;
+    width: 100%;
+    align-self: center;
+
+}
+#trust-two>div > div:nth-child(1){
+    width: 23%;
+}
+
 #trust>div>div+div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 15px;
+    line-height: 25px;
+}
+#trust-two>div>div+div{
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -318,6 +351,12 @@ body{
 #trust h3{
     font-size: 20px;
     font-weight: 600;
+}
+#trust-two h3{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #55555a;
 }
 #trust p{
     font-size: 15px;
@@ -332,6 +371,16 @@ body{
     cursor: pointer;
     text-decoration: underline;
 }
+#trust-two p{
+    text-decoration: none;
+    color: #55555a;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/* #trust-two>div{
+    width: 30%;
+} */
 .ecosystem{
     display: flex;
     width: 85%;
@@ -382,7 +431,60 @@ body{
     width: 100%;
 }
 
+#help-banner{
+    width: 90%;
+    margin: auto;
+}
+#help-banner>img{
+    margin: auto;
+    width: 100%;
+}
 
+.footer-section{
+    background-color: #f0f2f4;
+    padding: 1%;
+}
+#processes{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    gap: 40px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+#processes>div{
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    margin: auto;
+    text-align: center;
+}
+#processes>div>a>svg{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    fill: rgb(112, 117, 125);
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+#processes>div>a{
+    color:#0046be;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+#processes>div>a:hover{
+    text-decoration: underline;
+    color: #002a72;
+}
+
+#footer-line{
+    width: 95%;
+    margin: auto;
+    height: 1px;
+    background-color: #c4c4c4;
+}
 
 
 

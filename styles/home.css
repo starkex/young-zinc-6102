@@ -21,6 +21,12 @@ body{
     padding-top: 1%;
     padding-bottom: 1%;
 }
+#nav-border{
+    width: 100%;
+    height: 1px;
+    background-color:rgb(156, 156, 156) ;
+    padding: 0;
+}
 .navbar>div>img{
     width: 65px;
 }
@@ -220,7 +226,7 @@ body{
     margin-top: 4%;
 }
 
-.most-viewed{
+.back-white{
     background-color: #fff;
     padding: 3% 2% 1.5% 2%;
 }
@@ -341,5 +347,42 @@ body{
 .ecosystem>div>img{
     width: 100%;
 }
+
+/* .bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+} */
+.sec-nav{
+    background-color:#0046be;
+}
+.bottom-nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+.bottom-nav>div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.bottom-nav>div>a{
+    color: white;
+    font-size:13px;
+    text-decoration: none;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    align-self: center;
+}
+.bottom-nav>div>a:hover{
+    text-decoration: underline;
+}
+.bottom-nav>div>div{
+    width: 100%;
+}
+
+
+
 
 

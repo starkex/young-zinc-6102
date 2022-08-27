@@ -1,0 +1,73 @@
+.login-area2{
+    width: 18%;
+    background-color: #fff;
+    border-radius:4px;
+    margin: auto;
+    margin-top: 2%;
+    padding: 1.5% 1.4% 1.4% 1.4%;
+    border: 1px solid rgb(217, 217, 217);
+    margin-bottom: 5%;
+}
+.pass-check2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+    margin-top:1% ;
+    margin-bottom: 3%;
+    font-size: 14px;
+}
+.login-area2>h2{
+    text-align: center;
+    margin-bottom: 6%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.login-area2>div{
+    width: 100%;
+}
+
+.back-white2{
+    /* width: 100%; */
+    background-color: #fff;
+    padding: 2% 2% 1% 2%;
+    /* position: fixed; */
+    bottom: 0;
+}
+.back-white2>div{
+    width: 55%;
+    margin: auto;
+}
+.back-white2>div>div>p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 1%;
+}
+.back-white2>div>div>div{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-bottom: 0.5%;
+}
+form>a, .back-white2>div>div>a, .back-white2>div>div>div>a{
+    font-size: 11px;
+    color: #0046be;
+    text-decoration: none;
+}
+form>a:hover, .back-white2>div>div>a:hover, .back-white2>div>div>div>a:hover{
+    text-decoration: underline;
+}
+.login-area2>h2+p{
+    font-size: 12px;
+    letter-spacing:0.6px;
+    color: rgb(174, 174, 174);
+    margin-bottom: 8%;
+}
+.login-area2>h2+p>a{
+    color: #0046be;
+    text-decoration: none;
+}
+.login-area2>h2+p>a:hover{
+    color: #101f61;
+    text-decoration: underline;
+}

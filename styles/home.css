@@ -758,6 +758,132 @@ body{
 }
 
 
+@media all and (min-width:320px) and (max-width:480px){
+    .bottom-nav{
+        display: none;
+    }
+    .store-option{
+        display: none;
+    }
+    .menu-option{
+        display: none;
+    }
+    .navbar>div{
+        width: 92%;
+        grid-template-columns: 50px 180px 45px;
+        padding-top:3%;
+        padding-bottom:3%;
+    }
+    .hero-section{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .banner{
+        width: 100%;
+    }
+    .part-two{
+        width: 100%;
+    }
+    .deals {
+        gap:0;
+    }
+    #deal1 > p {
+        width: 65%;
+    }
+    #deal1 > img {
+        padding: 35% 10% 46% 10%;
+    }
+    #deal2 > img {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 13%;
+        display: flex;
+    }
+    .views{
+        width: 50%;
+    }
+    .most-items{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,auto);
+    }
+    .most-items>div>img {
+        margin: auto;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+    #trust {
+        margin-top: 8%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #trust>div {
+        align-items: center;
+    }
+    .ecosystem {
+        display: none;
+    }
+    #trust-two {
+        grid-template-columns: repeat(1,1fr);
+        margin-top:10% ;
+        margin-bottom:10% ;
+    }
+    #trust-two>div{
+        border-bottom: 1px solid #858586;
+    }
+    #help-banner {
+        display: none;
+    }
+    #container, #trends {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,auto);
+    }
+    #container>div, #trends>div {
+        padding-bottom: 4%;
+        border-bottom: 1px solid #858586;
+    }
+    .section-title{
+        margin-top: 20%;
+    }
+    #processes {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,auto);
+        /* flex-direction: column; */
+    }
+    #processes>div {
+        width: 100%;
+        margin: auto;
+    }
+    #mobile-unique{
+        display: none !important;
+    }
+    .menu-form {
+        flex-direction: column;
+    }
+    .menu-part {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,auto);
+        width: 100%;
+        margin: auto;
+    }
+    .menu-part>div{
+        margin-top: 8%;
+    }
+    .form-part{
+        width: 100%;
+    }
+    #footer-options {
+        font-size: 14px;
+        display: grid;
+        grid-template-columns: repeat(3,30%);
+        grid-template-rows: repeat(2,auto);
+    }
+}
+@media all and (min-width:481px) and (max-width:1024px){
+
+}
+
+
 
 
 

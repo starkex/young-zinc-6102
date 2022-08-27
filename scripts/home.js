@@ -47,7 +47,7 @@ var products = [
 
 var trending= [
     {
-        image:'./media/1.png',
+        image:'./media/6.png',
         name:'MacBook Pro 13.3" Laptop - Apple M1 chip - 8GB Memory - 256GB SSD',
         label:'',
         price:'$949.99',
@@ -55,35 +55,35 @@ var trending= [
 
     },
     {
-        image:'./media/2.png',
+        image:'./media/7.png',
         name:'Apple - AirPods Pro (with Magsafe Charging Case) - White',
         label:'',
         price:'$179.99',
         sale:'$219.99',
     },
     {
-        image:'./media/3.png',
+        image:'./media/5.png',
         name:'HP - ENVY x360 2-in-1 15.6" Touch-Screen Laptop - AMD Ryzen 5 - 8GB Memory',
         label:'',
         price:'$499.99',
         sale:'$699.99',
     },
     {
-        image:'./media/4.png',
+        image:'./media/9.png',
         name:'Apple - 10.2-Inch iPad (Latest Model) with Wi-Fi - 64GB - Space Gray',
         label:'',
         price:'$279.99',
         sale:'$379.99',
     },
     {
-        image:'./media/5.png',
+        image:'./media/10.png',
         name:'Apple - 10.2-Inch iPad (Latest Model) with Wi-Fi - 64GB - Space Gray',
         label:'Starting at',
         price:'$279.99',
         sale:'',
     },
     {
-        image:'./media/1.png',
+        image:'./media/11.png',
         name:'Samsung - 65" Class 7 Series LED 4K UHD Smart Tizen TV',
         label:'',
         price:'$449.99',

@@ -880,7 +880,102 @@ body{
     }
 }
 @media all and (min-width:481px) and (max-width:1024px){
-
+    .navbar>div {
+        width: 95%;
+        grid-template-columns: 68px 86px 10fr 0fr 75px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .bottom-nav>div>a {
+        font-size: 12px;
+    }
+    .bottom-nav {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 98%;
+    }
+    .hero-section{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .banner{
+        width: 100%;
+    }
+    .part-two{
+        width: 100%;
+    }
+    .deals {
+        gap:10px;
+    }
+    #deal1 > img {
+        width: 85%;
+        padding: 25% 10% 25% 10%;
+    }
+    #deal2 > img {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 13%;
+        display: flex;
+    }
+    .views{
+        width: 50%;
+    }
+    .most-items{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(1,auto);
+    }
+    #trust {
+        margin-top: 8%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ecosystem {
+        width:100%;
+    }
+    #trust-two{
+        grid-template-columns: repeat(3,33%);
+        margin-bottom: 4%;
+    }
+    #trust-two>div {
+        align-items: center;
+    }
+    #trust-two h3 {
+        font-size: 16px;
+    }
+    #trust-two>div>div+div {
+        line-height: 18px;
+    }
+    #container, #trends {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .section-title{
+        margin-top: 10%;
+    }
+    #processes>div>a>svg {
+        width: 50%;
+    }
+    #processes{
+        width: 95%;
+    }
+    .menu-form {
+        flex-direction: column;
+    }
+    .menu-part {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,auto);
+        width: 95%;
+        margin: auto;
+    }
+    .menu-part>div{
+        margin-top: 8%;
+    }
+    .form-part{
+        width: 100%;
+    }
+    #footer-options{
+        margin-bottom: 2%;
+    margin-top: 2%;
+    }
 }
 
 

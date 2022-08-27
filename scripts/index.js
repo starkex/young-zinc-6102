@@ -7,6 +7,3 @@ document.getElementById('united').addEventListener('click',function(){
 document.getElementById('mexico').addEventListener('click',function(){
     window.location.href= 'home.html'
 })
-document.getElementById('previous').addEventListener('click',function(){
-    window.location.href= 'home.html'
-})

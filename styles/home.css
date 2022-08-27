@@ -485,7 +485,12 @@ body{
     height: 1px;
     background-color: #c4c4c4;
 }
-
+#section-line{
+    width: 90%;
+    margin: auto;
+    height: 1px;
+    background-color: #c4c4c4;
+}
 #footer-menu-area{
     display: flex;
     /* width: 95%; */
@@ -697,6 +702,7 @@ body{
     text-decoration: underline;
     color: #002a72;
 }
+
 .copyrights{
     width: 95%;
     font-size: 13px;
@@ -704,6 +710,51 @@ body{
     margin: auto;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
+}
+
+#container,#trends{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 30px;
+    margin: auto;
+    margin-top: 2%;
+}
+#container>div>img, #trends>div>img{
+    width: 50%;
+}
+#container>div>img,#trends>div>img{
+    margin-bottom: 12%;
+}
+#container>div>img+p,#trends>div>img+p{
+    color:#0046be;
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 6%;
+}
+#container>div>img+p:hover,#trends>div>img+p:hover{
+    color:#002a72;
+    text-decoration: underline;
+}
+#container>div>h6,#trends>div>h6{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 1%;
+}
+#container>div>h6+p,#trends>div>h6+p{
+    color: #858586;
+    text-decoration: line-through;
+}
+/* #container> div>p:nth-child(2){
+    font-weight: 600;
+    font-size: 13px;
+} */
+.section-title{
+    width: 90%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 1%;
 }
 
 

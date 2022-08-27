@@ -43,6 +43,7 @@ body{
     border-radius:4px;
     margin: auto;
     margin-top: 2%;
+    margin-bottom: 4%;
     padding: 1.5% 1.4% 1.4% 1.4%;
     border: 1px solid rgb(217, 217, 217);
 
@@ -53,9 +54,9 @@ body{
     font-weight: 600;
     font-size: 20px;
 }
-.login-area>form{
-    /* padding: 1.5% 1% 1% 1%; */
-}
+/* .login-area>form{
+    padding: 1.5% 1% 1% 1%;
+} */
 .login-area>div{
     width: 100%;
 }
@@ -201,10 +202,10 @@ input[type='submit']+div{
     margin-top: 2%;
 }
 .back-white{
-    width: 100%;
+    /* width: 100%; */
     background-color: #fff;
     padding: 2% 2% 1% 2%;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
 }
 .back-white>div{

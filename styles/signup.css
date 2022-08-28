@@ -71,3 +71,23 @@ form>a:hover, .back-white2>div>div>a:hover, .back-white2>div>div>div>a:hover{
     color: #101f61;
     text-decoration: underline;
 }
+@media all and (min-width:320px) and (max-width:480px){
+    .login-area2 {
+        width: 95%;
+    }
+    .back-white2>div {
+        width: 95%;
+    }
+    .navbar>div {
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 95%;
+    }
+}
+@media all and (min-width:481px) and (max-width:1024px){
+    .login-area2 {
+        width: 50%;
+    }
+    
+}
+

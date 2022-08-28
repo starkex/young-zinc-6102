@@ -19,4 +19,12 @@ CartData.forEach(function(el,i){
     // pricediv.append(price)
 
     mainDiv.append(Itemdiv)
+
+
+/********Order Summary*******/
+document.getElementById('sale-pr').innerText=Number(el['Price'])+'$'
+document.getElementById('save').innerText=el['Savings']+'$'
+document.getElementById('taxes').innerText = '18'
+let taxval = document.getElementById('taxes').innerText
+document.getElementById('total').innerText = Number(taxval)- el['Savings'] +Number(el['Price'])+'$'
 })

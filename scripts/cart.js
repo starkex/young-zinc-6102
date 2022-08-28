@@ -8,7 +8,7 @@ function valueAdd(event){
     let prod_name = document.getElementById('product-name').innerText
     let Actprice = document.getElementById('realprice').innerText
     let Itemsale = document.getElementById('saleprice').innerText
-    let Differ = Number(Itemsale) - Number(Actprice)
+    let Differ = Number(Actprice) - Number(Itemsale)
 
     let obj={
         'ImageLink':imag,

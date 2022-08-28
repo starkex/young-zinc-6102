@@ -42,7 +42,7 @@
                 <a href="#">More</a>
         </div>
         <div>
-                <a href="#">Acoount</a>
+                <a href="signup.html">Acoount</a>
                 <a href="#">Recently Viewed</a>
                 <a href="#">Order Status</a>
                 <a href="#">Saved Items</a>
@@ -50,73 +50,26 @@
     </div>
     </section>
 
+    <section class="back-white">
     <div class="product-details">
         <div id="product-showcase">
-            <h1>GE - 550 Sq. Ft. 12,000 BTU Smart Window Air Conditioner with WiFi and Remote - White</h1>
+            <h1 id="product-name">GE - 550 Sq. Ft. 12,000 BTU Smart Window Air Conditioner with WiFi and Remote - White</h1>
             <div>
-                <p>Model:AHP12LZ</p>
-                <p>SKU:6390687</p>
+                <p>Model: AHP12LZ</p>
+                <p>SKU: 6390687</p>
             </div>
-            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6390/6390687_rd.jpg;maxHeight=640;maxWidth=550" alt="product" srcset="">
-            
+            <img id='product-img' src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6390/6390687_rd.jpg;maxHeight=640;maxWidth=550" alt="product" srcset="">
         </div>
         <div id='item-details'>
-            <p>$399.99</p>
+            <p id="item-price">$<span id="saleprice">399.99</span></p>
+            <p>Was $<span id="realprice">449.99</span></p>
+            <button id="add-to-cart">Add to Cart</button>
         </div>
     </div>
-    <!-- <div class="hero-section">
-        <div class="banner">
-            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/MMT-583396-ghp-appliance-labor-sale-220828-0decf8d0-4793-40e7-8ba9-5e9975612b75.jpg" alt="product">
-        </div>
-
-        <div class="part-two">
-            <div class="top-categories">
-               <p>Today's top picks</p>
-               <div class="top-products">
-                    <div>
-                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6418/6418601_sd.jpg"  id='img1' alt="p1">
-                        <a href="#" >MacBook Pro 13.3" Laptop - Apple M1 chip</a>
-                    </div>
-                    <div>
-                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6487/6487447_sd.jpg" id='img2' alt="p2">
-                        <a href="#" >MacBook Pro 13.3" Laptop - Apple M1 chip</a>
-                    </div>
-                    <div>
-                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6502/6502184_sd.jpg" id='img3' alt="p3">
-                        <a href="#" >MacBook Pro 13.3" Laptop - Apple M1 chip</a>
-                    </div>
-                    <div>
-                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4900/4900942_sd.jpg" id='img4' alt="p4">
-                        <a href="#" >MacBook Pro 13.3" Laptop - Apple M1 chip-</a>
-                    </div>
-               </div>
-            </div>
-
-            <div class="deals">
-               <div id="deal1">
-                    <p><span style="color: yellow;">Oulet</span> Deals</p>
-                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/ClearanceOpenBox_White-217158.png" alt="dealone">
-                    <a href="#">View outlet deals</a>
-                </div>
-               <div id="deal2">
-                    <p><span style="padding:3px 3px 3px 6px; background-color: #bb0628; color: #fff; margin-right: 3px;"> Deal </span> of the day</p>
-                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6502/6502944_sd.jpg" alt="dealtwo" srcset="">
-                    <a href="#">Acer - Aspire 3 – 17.3 HD+ Laptop – 11th...</a>
-                    <br>
-                    <div class="price">
-                        <span style="font-weight: 600;">$329.99</span>
-                        <br>
-                        <span style="text-decoration: line-through; color: rgb(162, 162, 162);">$529.99</span>
-                    </div>
-                    <br>
-                    <a href="#">See Bonus deals</a>
-               </div>
-            </div>
-        </div>
-    </div> -->
+    </section>
 
     <section class="back-white">
-        <div id="title-name">
+        <!-- <div id="title-name">
             <div class="views">
                 <p>Most-viewed items</p>
             </div>
@@ -144,7 +97,7 @@
                 <img src="./media/5.png" alt="">
                 <a href="">OtterBox - Thin Flex Series Carrying Case for Samsung Galaxy Flip4 - Black</a>
             </div>
-        </div>
+        </div> -->
 
         <div id="trust">
             <div>
@@ -211,9 +164,7 @@
             </div>
         </div>
 
-        <div id="help-banner">
-            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/gl62892-tt-skinny-bg-lg-4ed9a87a-ca73-4e7a-8610-0f2159f2239b.jpg" alt="">
-        </div>
+      
         <div class="section-title">
             <h2>You may also like</h2>
         </div>
@@ -531,5 +482,6 @@
     
     <script src="./scripts/index.js"></script>
     <script src="./scripts/home.js"></script>
+    <script src="./scripts/cart.js"></script>
 </body>
 </html>

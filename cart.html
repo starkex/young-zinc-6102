@@ -7,6 +7,7 @@
     <title>Best Buy | Official Online Store | Shop Now & Save</title>
     <link rel="icon" type="image/x-icon" href="./media/favicon.ico">
     <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/cart.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -41,7 +42,7 @@
                 <a href="#">More</a>
         </div>
         <div>
-                <a href="#">Acoount</a>
+                <a href="signup.html">Acoount</a>
                 <a href="#">Recently Viewed</a>
                 <a href="#">Order Status</a>
                 <a href="#">Saved Items</a>
@@ -49,58 +50,148 @@
     </div>
     </section>
 
-    <div class="hero-section">
-        <div class="banner">
-            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/MMT-583396-ghp-appliance-labor-sale-220828-0decf8d0-4793-40e7-8ba9-5e9975612b75.jpg" alt="product">
+  
+    <div class="product-details2">
+        <div id="product-get">
+            <h1>Your cart </h1>
+            <div class="order-sep"></div>
+            <div id="item-store">
+                <!-- <div id="Item-print"></div> -->    
+            </div>
+            
         </div>
-
-        <div class="part-two">
-            <div class="top-categories">
-               <p>Today's top picks</p>
-               <div class="top-products">
-                    <div>
-                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6418/6418601_sd.jpg"  id='img1' alt="p1">
-                        <a href="#" >MacBook Pro 13.3" Laptop - Apple M1 chip</a>
-                    </div>
-                    <div>
-                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6487/6487447_sd.jpg" id='img2' alt="p2">
-                        <a href="#" >MacBook Pro 13.3" Laptop - Apple M1 chip</a>
-                    </div>
-                    <div>
-                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6502/6502184_sd.jpg" id='img3' alt="p3">
-                        <a href="#" >MacBook Pro 13.3" Laptop - Apple M1 chip</a>
-                    </div>
-                    <div>
-                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4900/4900942_sd.jpg" id='img4' alt="p4">
-                        <a href="#" >MacBook Pro 13.3" Laptop - Apple M1 chip-</a>
-                    </div>
-               </div>
+        <div id='item-details-get'>
+            <h4>Order Summary</h4>
+            <div class="order-sep"></div>
+            <div>
+                <p>Original Price</p>
+                <span id="sale-pr"></span>
             </div>
-
-            <div class="deals">
-               <div id="deal1">
-                    <p><span style="color: yellow;">Oulet</span> Deals</p>
-                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/ClearanceOpenBox_White-217158.png" alt="dealone">
-                    <a href="#">View outlet deals</a>
-                </div>
-               <div id="deal2">
-                    <p><span style="padding:3px 3px 3px 6px; background-color: #bb0628; color: #fff; margin-right: 3px;"> Deal </span> of the day</p>
-                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6502/6502944_sd.jpg" alt="dealtwo" srcset="">
-                    <a href="#">Acer - Aspire 3 – 17.3 HD+ Laptop – 11th...</a>
-                    <br>
-                    <div class="price">
-                        <span style="font-weight: 600;">$329.99</span>
-                        <br>
-                        <span style="text-decoration: line-through; color: rgb(162, 162, 162);">$529.99</span>
-                    </div>
-                    <br>
-                    <a href="#">See Bonus deals</a>
-               </div>
+            <div>
+                <p>Savings</p>
+                <span id="save"></span>
             </div>
+            <div>
+                <p>Tax</p>
+                <span id="taxes"></span>
+            </div>
+            <div>
+                <h3>Total</h3>
+                <span id="total"></span>
+            </div>
+            <div class="order-sep"></div>
+            <button class="chec">Checkout</button>
         </div>
     </div>
 
 
+
+    <section class="back-white">
+        <div id="title-name">
+            <div class="views">
+                <p>Most-viewed items</p>
+            </div>
+            <div id="title-hr"></div>
+        </div>
+    
+        <div class="most-items">
+            <div>
+                <img src="./media/3.png" alt="">
+                <a href="singleproduct.html">OtterBox - Thin Flex Series Carrying Case for Samsung Galaxy Flip4 - Black</a>
+            </div>
+            <div>
+                <img src="./media/1.png" alt="">
+                <a href="">OtterBox - Thin Flex Series Carrying Case for Samsung Galaxy Flip4 - Black</a>
+            </div>
+            <div>
+                <img src="./media/4.png" alt="">
+                <a href="">OtterBox - Thin Flex Series Carrying Case for Samsung Galaxy Flip4 - Black</a>
+            </div>
+            <div>
+                <img src="./media/2.png" alt="">
+                <a href="">OtterBox - Thin Flex Series Carrying Case for Samsung Galaxy Flip4 - Black</a>
+            </div>
+            <div>
+                <img src="./media/5.png" alt="">
+                <a href="">OtterBox - Thin Flex Series Carrying Case for Samsung Galaxy Flip4 - Black</a>
+            </div>
+        </div>
+
+        <div id="trust">
+            <div>
+                <div>
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-65963-confident-210831-c34d2a74-8b79-41cd-8161-b9987666f7d6.png;maxHeight=72;maxWidth=72" alt="">
+                </div>
+                <div>
+                    <h3>Shop safely and confidently.</h3>
+                    <a href="">See our safety procedures</a>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-65963-expert-210831-70c599ed-fc34-47d8-9b93-85f899d93c8f.png;maxHeight=72;maxWidth=72" alt="">
+                </div>
+                <div>
+                    <h3>Shop with an expert, right from home.</h3>
+                    <p>Call, chat, video chat or in-home consultation.</p>
+                    <a href="">Shop with an Expert</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="back-white">
+        <div id="trust-two">
+            <div>
+                <div>
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/gl-37875-app-curbside-vpe_der-149659.png;maxHeight=144;maxWidth=144" alt="">
+                </div>
+                <div>
+                    <h3>Ready in one hour</h3>
+                    <p>with Store or Curbside Pickup..</p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/gl-app-vpe-freeshippin_der1-206852.png;maxHeight=144;maxWidth=144" alt="">
+                </div>
+                <div>
+                    <h3>Free next-day delivery</h3>
+                    <p>on thousands of items.</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/gl-app-vpe-freeshippin_der1-206852.png;maxHeight=144;maxWidth=144" alt="">
+                </div>
+                <div>
+                    <h3>Same-day delivery.</h3>
+                    <p>Order by 2 p.m., get it by 8 p.m.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title">
+            <h2>You may also like</h2>
+        </div>
+        <div id="section-line"></div>
+        <div id="container">
+            
+        </div>
+
+        <div class="section-title">
+            <h2>Trending Now</h2>
+        </div>
+        <div id="section-line"></div>
+        <div id="trends">
+            
+        </div>
+
+
+    </section>
 
 
     <section class="footer-section">
@@ -175,7 +266,7 @@
                     Return & Exchanges
                 </a>
             </div>
-            <div id="mobile-unique">
+            <div>
                 <a href="">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" xml:space="preserve">
                         <path d="M15.83.7h-.07C8.64.7 3.11 6.04 1.32 11.36c-.54 1.62-1.3 4.9-.2 8.62 1.62 
@@ -372,8 +463,6 @@
             </div>
 
         </div>
-        
-        <!-- <div id="footer-line"></div> -->
 
        <div class="feedback">
         <p>How was your experience? <a href="#" id="feedback-link"> Give feedback about our website</a></p>
@@ -402,5 +491,6 @@
     
     <script src="./scripts/index.js"></script>
     <script src="./scripts/home.js"></script>
+    <script src="./scripts/maincart.js"></script>
 </body>
 </html>

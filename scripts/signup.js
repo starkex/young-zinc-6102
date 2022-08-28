@@ -22,4 +22,6 @@ function Signup(event){
     }
     LSData.push(obj)
     localStorage.setItem('Users',JSON.stringify(LSData))
+
+    wwindow.location.href='login.html'
 }

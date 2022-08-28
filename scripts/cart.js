@@ -23,8 +23,9 @@ function valueAdd(event){
     window.location.href='cart.html'
 }
 
-// document.querySelector('cart-option').addEventListener('click',sup)
-
-// function sup(){
-//     window.location.href='cart.html'
-// }
+document.querySelector('.cart-option').addEventListener('click',reDirect3)
+function reDirect3(event){
+    event.preventDefault()
+    window.location.href='cart.html'
+    
+}

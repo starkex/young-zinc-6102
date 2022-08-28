@@ -28,3 +28,10 @@ document.getElementById('taxes').innerText = '18'
 let taxval = document.getElementById('taxes').innerText
 document.getElementById('total').innerText = Number(taxval)- el['Savings'] +Number(el['Price'])+'$'
 })
+
+document.querySelector('.cart-option').addEventListener('click',reDirect2)
+function reDirect2(event){
+    event.preventDefault()
+    window.location.href='cart.html'
+    
+}

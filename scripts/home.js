@@ -136,7 +136,9 @@ trending.map(function(ele,i){
     document.getElementById('trends').append(maindiv)
 })
 
-// document.querySelector('cart-option').addEventListener('click',reDirect)
-// function reDirect(){
-//     
-// }
+document.querySelector('.cart-option').addEventListener('click',reDirect)
+function reDirect(event){
+    event.preventDefault()
+    window.location.href='cart.html'
+    
+}

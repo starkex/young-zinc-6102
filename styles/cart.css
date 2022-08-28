@@ -1,0 +1,11 @@
+.product-details{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap:20px;
+    background-color: #fff;
+}
+#product-showcase>div{
+    display: flex;
+    gap: 20px;
+}
